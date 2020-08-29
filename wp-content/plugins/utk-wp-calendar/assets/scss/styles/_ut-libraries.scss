@@ -1,0 +1,60 @@
+.utk-calendar.utk-calendar-style--ut_libraries {
+
+  .utk-calendar--header {
+    &--title {
+      font-size: $type-2;
+      text-transform: uppercase;
+      margin: 0;
+      width: auto;
+      color: $smokey;
+    }
+
+    &--url {
+      font-size: $type-1 !important;
+      margin-top: 0;
+    }
+  }
+
+  .utk-calendar-event  {
+
+    &--title {
+      font-size: $type-2 !important;
+      margin: 0 0 $golden-ratio-1 !important;
+      text-decoration: none !important;
+      line-height: 1.3em !important;
+    }
+
+    &--date {
+      margin-top: -4px;
+
+      &--month {
+        font-size: $type-1 !important;
+      }
+
+      &--day {
+        font-size: $type-3 !important;
+      }
+    }
+
+    &--time {
+      font-weight: 700;
+    }
+
+    &--time,
+    &--location {
+      font-size: $type-1 !important;
+    }
+  }
+}
+
+.utk-calendar-figure--svg {
+
+  .utk-calendar-event--icon {
+    fill: $rock !important;
+    margin-top: 1px;
+
+    * {
+      fill: $rock !important;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+
+.icon-clock:before { content: '\e800'; } /* '' */
+.icon-location:before { content: '\e801'; } /* '' */
+.icon-right-open:before { content: '\e802'; } /* '' */
+.icon-link-ext-alt:before { content: '\f14c'; } /* '' */

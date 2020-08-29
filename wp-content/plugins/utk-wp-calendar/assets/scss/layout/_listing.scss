@@ -1,0 +1,30 @@
+.utk-calendar {
+  padding: $golden-ratio-4 0;
+}
+
+.utk-calendar--header {
+  border-bottom: 2px solid $gray-1;
+  padding-bottom: $golden-ratio-0;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+
+  &--title {
+    width: auto;
+  }
+
+  &--url {
+    font-size: 1rem;
+    margin-left: auto;
+    margin-top: $golden-ratio-0;
+  }
+}
+
+.utk-calendar-listing {
+  margin: 0;
+  padding: 0;
+
+  &--note {
+    font-size: $type-2;
+  }
+}
