@@ -1,0 +1,11 @@
+# wp stuff
+wp-config.php
+
+# os stuff
+.DS_Store
+
+# ide stuff
+.idea
+
+# webapp stuff
+node_modules
