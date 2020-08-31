@@ -9,9 +9,7 @@
   @include('partials.page-header')
   <div class="splash">
     <div>
-      @php
-        echo do_shortcode('[utk_calendar]');
-      @endphp
+      render #volsvote event calendar
     </div>
   </div>
   @include('partials.content-page')
