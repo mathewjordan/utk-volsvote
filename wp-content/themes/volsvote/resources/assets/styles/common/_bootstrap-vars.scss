@@ -1,0 +1,33 @@
+/*
+ * define bootstrap vars according to externally hosted bootstrap library
+ */
+
+// Breakpoints
+$xxs-upr:               360px;
+$xs-upr:                767px;
+$sm-lwr:                768px;
+$sm-upr:                991px;
+$md-lwr:                992px;
+$md-upr:                1199px;
+$lg-lwr:                1200px;
+$lg-upr:                1439px;
+$xl-lwr:                1440px;
+$xl-upr:                4200px;
+
+$grid-columns:                12 !default;
+$grid-gutter-width:           30px !default;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 100%,
+  xl: 100%
+);
