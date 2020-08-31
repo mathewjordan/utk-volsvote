@@ -1,7 +1,27 @@
 {
     "key": "group_5f4c5a0d61f31",
     "title": "Choice",
-    "fields": [],
+    "fields": [
+        {
+            "key": "field_5f4c5c6fa5e19",
+            "label": "Description",
+            "name": "description",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
     "location": [
         [
             {
@@ -24,5 +44,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1598839869
+    "modified": 1598839956
 }

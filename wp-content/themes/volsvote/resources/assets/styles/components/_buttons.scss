@@ -1,0 +1,17 @@
+.btn {
+  &-cta {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+
+  &-energy {
+    background-color: $regalia;
+    color: $white !important;
+  }
+
+  &-summitt {
+    color: $smokey !important;
+    border: 2px solid $gray-1;
+  }
+}

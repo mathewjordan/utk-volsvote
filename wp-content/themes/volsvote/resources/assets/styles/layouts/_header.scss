@@ -1,7 +1,27 @@
-.banner .nav li {
-  @extend .nav-item;
+header.banner {
+  background-color: $white;
+  box-shadow: $box-shadow;
+  padding: 15px 0;
+  border-top: 6px solid $orange;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
-.banner .nav a {
-  @extend .nav-link;
+.brand {
+  display: flex;
+  align-items: center;
+
+  &--logo {
+    width: 200px;
+    margin-right: 30px;
+  }
+
+  &--unit {
+    font-size: 29px;
+    line-height: 29px;
+    font-weight: 700;
+  }
 }
