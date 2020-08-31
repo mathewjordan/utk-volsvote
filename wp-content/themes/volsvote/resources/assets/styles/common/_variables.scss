@@ -53,3 +53,10 @@ $serif: Georgia, Times, "Times New Roman", serif;
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;
 $navbar-light-toggler-icon-bg: none;
+
+/*
+ * box-shadows
+ */
+
+$box-shadow: 0 5px 15px rgba($smokeyx, 0.08);
+$box-shadow-float: 0 5px 15px rgba($smokeyx, 0.15);

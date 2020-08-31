@@ -1,0 +1,12 @@
+body.page-template-home {
+  background-color: $gray-0;
+
+  h1 {
+    display: none !important;
+  }
+}
+
+.wp-block-cover {
+  margin-left: -15px;
+  width: calc(100% + 30px);
+}
