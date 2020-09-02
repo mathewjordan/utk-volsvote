@@ -79,6 +79,7 @@ function utthehill_scripts_styles() {
   	wp_enqueue_style( 'utthehill-style', get_template_directory_uri() . '/library/v2015.css', array(), '2020-01-06' );
   } else {
   	wp_enqueue_style( 'custom-style',    get_template_directory_uri() . '/library/v2019.css', array(), '2020-01-06' ); //our stylesheet
+    wp_enqueue_style( 'volsvote-style',    get_template_directory_uri() . '/library/volsvote.css', array(), '2020-09-01' ); //our stylesheet
 	}
 
 
