@@ -119,6 +119,8 @@ class Data
         $endpoint = Calendar::ENDPOINT_URL . '/api/2/departments?page=' . $_POST['page'];
         $department_id = get_site_option('utk_calendar_department_id');
 
+        print $endpoint;
+
         $json = file_get_contents($endpoint);
         $result_page = json_decode($json);
 
