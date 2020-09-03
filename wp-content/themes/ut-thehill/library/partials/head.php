@@ -14,11 +14,13 @@
 // If it is the front page and the homepage headline option is turned on
   $brand_gotham = get_theme_mod( 'brand_gotham' );
   if ($brand_gotham=="1") { ?>
-    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6831932/618846/css/fonts.css" />
+<!--    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6831932/618846/css/fonts.css" />-->
   <?php } elseif ($brand_gotham=="gotham-alt" || $brand_gotham=="gotham-alt-light" ) { ?>
-    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6831932/7665612/css/fonts.css" />
+<!--    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6831932/7665612/css/fonts.css" />-->
   <?php  
-  }else{  ?><?php } ?>
+  }else{  ?>
+
+  <?php } ?>
 
     <?php wp_head(); ?>
 
